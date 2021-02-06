@@ -16,8 +16,8 @@ class Sidebar extends Component {
     this.props.menu.forEach( (item) => {
       
 
-      
-      // used console log to add <li> tage with every text
+      responseHTML +="<li>"+item+"</li>"
+     
    
 
       
