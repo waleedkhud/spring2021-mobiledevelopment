@@ -18,15 +18,15 @@ class Sidebar extends Component {
 
       
       // used console log to add <li> tage with every text
-     console.log("<li>"+item+"</li>");
+   
 
       
      
       
-     return responseHTML +="<li>"+item+"</li>";
+     
      // TODO: Add (concatenate) the value of each item to the variable responseHTML. Each should be wrapped in <li></li>
     });
-   
+   return responseHTML +="<li>"+item+"</li>";
     
   }
 }
