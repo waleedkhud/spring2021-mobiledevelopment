@@ -22,7 +22,7 @@ class Sidebar extends Component {
      // TODO: Add (concatenate) the value of each item to the variable responseHTML. Each should be wrapped in <li></li>
     });
     //response html to wrap the items with <ul> 
-    responseHTML = '<ul>' + responseHTML + "</ul>"; 
+    responseHTML = '<ul>' + responseHTML + '</ul>'; 
     return responseHTML 
     
   }
