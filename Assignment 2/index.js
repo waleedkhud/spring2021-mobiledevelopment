@@ -21,7 +21,7 @@ const s = new Sidebar({
 */
 
 
-console.log(`<ul>${s.render()}</ul>`);
+console.log(s.render());
 
 
 
