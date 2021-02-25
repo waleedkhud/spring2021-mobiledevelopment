@@ -12,7 +12,7 @@ class Sprint extends Component {
 
     return(
         <div>
-            <h2> 50 meter sprint {this.state.sets}</h2>
+            <h2> 50 meter sprint: {this.state.sets}</h2>
             <button onClick={() => this.setState({sets: this.state.sets + 50 })}>add set</button>
             <button onClick={() => this.setState({sets: 0})}>Reset counter</button>
         </div>
